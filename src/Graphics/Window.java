@@ -11,7 +11,7 @@ public class Window extends Canvas {
     //}
 
     public Window(){
-        Window window = new Window();
+        
     }
 
 }
