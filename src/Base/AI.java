@@ -2,7 +2,7 @@ package Base;
 import java.util.Random;
 
 public class AI {
-    int winCount = 0;
+    public int winCount = 0;
     public AI(){
     }
 

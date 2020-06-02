@@ -1,8 +1,16 @@
 package Base;
 
-public class Main {
+import Graphics.*;
+import Graphics.Window;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class Main{
+
 
     public static void main(String[] args) {
+        Window window = new Window();
 
         Player player = new Player();
         AI ai = new AI();
@@ -70,4 +78,5 @@ public class Main {
             System.out.println("AI: " + ai.winCount + " Player: " + player.winCount);
         }
     }
+
 }
